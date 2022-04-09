@@ -1,9 +1,25 @@
-import React from 'react'
-
+import React from "react";
+import "./home.css";
+import Header from "../header/Header";
+import Footer from "../footer/Footer";
+import Body from "../body/Body";
 function Home() {
   return (
-    <div>This is a  Home</div>
-  )
+    <div className="home">
+      <div>
+        <Header />
+      </div>
+
+      <div>
+        <Body />
+      </div>
+
+      <div>
+        <Footer />
+      </div>
+
+    </div>
+  );
 }
 
-export default Home
+export default Home;
